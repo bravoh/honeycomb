@@ -8,8 +8,8 @@ use Symfony\Component\Process\Process;
 
 class BudgetInstall extends Command
 {
-    protected $signature = 'budget:install';
-    protected $description = 'Runs most of the commands needed to make Budget work';
+    protected $signature = 'system:install';
+    protected $description = 'Runs most of the commands needed to make this platform work';
 
     public function __construct()
     {

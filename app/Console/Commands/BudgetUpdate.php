@@ -7,7 +7,7 @@ use Illuminate\Console\Command;
 
 class BudgetUpdate extends Command
 {
-    protected $signature = 'budget:update';
+    protected $signature = 'system:update';
     protected $description = 'Update the application to the latest version';
 
     public function __construct()

@@ -5,10 +5,14 @@
                 class="bg__button"
                 :class="{ 'bg__button--active': type == 'earning' }"
                 @click="switchType('earning')">Earning</button>
-            <button
-                class="bg__button"
+
+            <button class="bg__button"
                 :class="{ 'bg__button--active': type == 'spending' }"
                 @click="switchType('spending')">Spending</button>
+
+            <button class="bg__button" :class="{ 'bg__button--active': type == 'quotation' }">Quotation</button>
+
+            <button class="bg__button" :class="{ 'bg__button--active': type == 'invoice' }">Quotation</button>
         </div>
         <div class="input" v-if="type == 'spending'">
             <label>Tag</label>
