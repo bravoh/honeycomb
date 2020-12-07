@@ -26,11 +26,11 @@ My demo application to use Laravel with BlockChain
 Use the command below to update to the latest version.
 
 ```
-php artisan budget:update
+php artisan system:update
 ```
 
 ## Docker
 
-You can run Budget using Docker. Spinning it up (`docker-compose up`) will create 3 containers–for MySQL, PHP and NGINX.
+You can use Docker. Spinning it up (`docker-compose up`) will create 3 containers–for MySQL, PHP and NGINX.
 
 *Disclaimer–currently the Docker setup is missing cronjobs and the queue worker.*
